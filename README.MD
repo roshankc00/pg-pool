@@ -7,19 +7,9 @@ seq scans, real CPU contention, and pool sizes fighting it out. we will see real
 
 Should be fun to see what the numbers actually conclude.
 
-## My machine
-
-- CPU: Apple M4
-- Physical cores: 10
-- Logical cores: 10
-- RAM: 16 GB
-- Disk: SSD
-- macOS: 15.4.1
-- Postgres: 18.0 (Postgres.app)
-
 ## Disclaimer
 
-These numbers came off my own machine — 10 Mac cores, this RAM, this disk
+These numbers came off my own machine 10 Mac cores, this RAM, this disk
 speed, this OS scheduler, all of it baked in. Run this on a different
 machine and you'll get different curves, maybe even a different "optimal"
 pool size. Treat this as one data point showing the shape of the behavior,
